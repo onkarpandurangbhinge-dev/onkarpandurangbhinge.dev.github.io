@@ -1,0 +1,47 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f8f8f8;
+}
+
+header{
+background:#e23744;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+header input{
+padding:10px;
+width:300px;
+border:none;
+border-radius:5px;
+margin-top:15px;
+}
+
+.restaurants{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:30px;
+}
+
+.card{
+background:white;
+width:250px;
+margin:15px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+padding:15px;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.card:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
